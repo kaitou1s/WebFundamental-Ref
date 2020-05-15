@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <h1 class="heading">Goodbye</h1>
+    <ul>
+
+        <li id="hightelight">List Item 1</li>
+        <li class="bolded">List Item 2</li>
+        <li class="bolded">List Item 3</li>
+
+    </ul>
+    <p></p>
+    <script src="./js/dom.js"></script>
+    <script>
+        var ul = document.querySelector('ul');
+        var p = document.querySelector('p').innerHTML = ul.textContent;
+    </script>
+</body>
+
+</html>
